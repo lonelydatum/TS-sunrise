@@ -19,7 +19,7 @@
 }
 
 .cloud.left.a{
-	@include pos(130, 0);
+	@include pos(70, 0);
 }
 
 .cloud.left.b{
@@ -27,11 +27,11 @@
 }
 
 .cloud.right.a{
-	@include pos(-50, 0);
+	@include pos(-40, 0);
 }
 
 .cloud.right.b{
-	@include pos(-270, 0);
+	@include pos(-90, 0);
 }
 
 .cloud.right.c{

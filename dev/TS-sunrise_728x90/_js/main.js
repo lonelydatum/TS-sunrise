@@ -1,7 +1,7 @@
-import {b_300x250} from '../../_common/js/common.js'
+import {b_728x90} from '../../_common/js/common.js'
 
 
 
-b_300x250()
+b_728x90()
 
 

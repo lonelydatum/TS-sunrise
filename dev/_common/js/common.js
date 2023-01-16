@@ -52,10 +52,10 @@ function sliderVertical(){
 	return tl
 }
 
-function standard(frame1=sliderSlant){	
+function standard(duration=6){	
 	const tl = init()	
-	const duration= 6;
-	
+
+
 	tl.add("cloud", 0)
 	tl.to(".cloud.right.a", {duration:duration*1, x:0}, "cloud")
 	tl.to(".cloud.right.b", {duration:duration*1, x:0}, "cloud")
@@ -112,7 +112,7 @@ function b_320x50(){
 }
 
 function b_728x90(text1){
-	standard(sliderVertical)
+	standard(7)
 	
 }
 

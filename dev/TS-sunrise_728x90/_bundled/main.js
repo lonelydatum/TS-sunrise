@@ -3,7 +3,7 @@
 
 var _commonJsCommonJs = require('../../_common/js/common.js');
 
-(0, _commonJsCommonJs.b_300x250)();
+(0, _commonJsCommonJs.b_728x90)();
 
 },{"../../_common/js/common.js":2}],2:[function(require,module,exports){
 "use strict";
@@ -67,10 +67,9 @@ function sliderVertical() {
 }
 
 function standard() {
-	var frame1 = arguments.length <= 0 || arguments[0] === undefined ? sliderSlant : arguments[0];
+	var duration = arguments.length <= 0 || arguments[0] === undefined ? 6 : arguments[0];
 
 	var tl = init();
-	var duration = 6;
 
 	tl.add("cloud", 0);
 	tl.to(".cloud.right.a", { duration: duration * 1, x: 0 }, "cloud");
@@ -119,7 +118,7 @@ function b_320x50() {
 }
 
 function b_728x90(text1) {
-	standard(sliderVertical);
+	standard(7);
 }
 
 exports.init = init;
