@@ -3,7 +3,7 @@
 
 var _commonJsCommonJs = require('../../_common/js/common.js');
 
-(0, _commonJsCommonJs.b_160x600)();
+(0, _commonJsCommonJs.b_300x250)();
 
 },{"../../_common/js/common.js":2}],2:[function(require,module,exports){
 "use strict";
@@ -83,7 +83,7 @@ function standard() {
 	tl.add("start", .5);
 	tl.to(".dark", { duration: duration * 1, opacity: 0 }, "start");
 	tl.from(".light", { duration: duration * 1, opacity: 0 }, "start");
-	tl.to(".lantern", { duration: duration * 1, y: 0 }, "start");
+	tl.to(".lantern", { duration: duration * 1.2, y: 0 }, "start");
 	tl.to(".logo", { duration: duration * 1, y: 0 }, "start");
 
 	return tl;

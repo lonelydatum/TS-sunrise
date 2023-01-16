@@ -55,7 +55,7 @@ function sliderVertical(){
 function standard(frame1=sliderSlant){	
 	const tl = init()	
 	const duration= 6;
-
+	
 	tl.add("cloud", 0)
 	tl.to(".cloud.right.a", {duration:duration*1, x:0}, "cloud")
 	tl.to(".cloud.right.b", {duration:duration*1, x:0}, "cloud")
@@ -68,7 +68,7 @@ function standard(frame1=sliderSlant){
 	tl.add("start", .5)
 	tl.to(".dark", {duration:duration*1, opacity:0}, "start")
 	tl.from(".light", {duration:duration*1, opacity:0}, "start")
-	tl.to(".lantern", {duration:duration*1, y:0}, "start")
+	tl.to(".lantern", {duration:duration*1.2, y:0}, "start")
 	tl.to(".logo", {duration:duration*1, y:0}, "start")
 
 

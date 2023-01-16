@@ -1,25 +1,39 @@
 @import './common.scss';
+@import './sunrise.scss';
+
 
 #banner{
  width: 728px;
- height: 90px; 
+ height: 90px;
 }
 
 
 
-#olg{
-	
-	width: 117px;
-	height: 69px;
-	@include pos(-2, 26);
-	
+.logo{
+	@include pos-scale(0, 0, .5);
 }
 
 
+.lantern{
+	@include pos-scale(0, 100, .5);
+}
 
+.cloud.left.a{
+	@include pos(130, 0);
+}
 
-#legalBtn{	
-	@include pos(650, 45);	
-	width: 80px;
+.cloud.left.b{
+	@include pos(60, 0);
+}
 
+.cloud.right.a{
+	@include pos(-50, 0);
+}
+
+.cloud.right.b{
+	@include pos(-270, 0);
+}
+
+.cloud.right.c{
+	@include pos(0, 0);
 }
