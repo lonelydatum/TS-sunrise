@@ -14,7 +14,7 @@
 
 
 .lantern{
-	@include pos-scale(0, 160, .5);
+	@include pos-scale(0, 140, .5);
 }
 
 .cloud.left.a{
@@ -35,4 +35,8 @@
 
 .cloud.right.c{
 	@include pos(-100, 0);
+}
+
+.lanternmask{
+	height: 90%;
 }
