@@ -1,0 +1,38 @@
+@import './common.scss';
+@import './sunrise.scss';
+
+#banner{
+ width: 300px;
+ height: 250px; 
+}
+
+
+
+.logo{
+	@include pos-scale(0, 90, .5);
+}
+
+
+.lantern{
+	@include pos-scale(0, 160, .5);
+}
+
+.cloud.left.a{
+	@include pos(50, 0);
+}
+
+.cloud.left.b{
+	@include pos(100, 0);
+}
+
+.cloud.right.a{
+	@include pos(-110, 0);
+}
+
+.cloud.right.b{
+	@include pos(-90, 0);
+}
+
+.cloud.right.c{
+	@include pos(-100, 0);
+}
