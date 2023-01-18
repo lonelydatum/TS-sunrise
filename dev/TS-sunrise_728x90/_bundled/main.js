@@ -72,7 +72,7 @@ function standard() {
 	var tl = init();
 
 	// return
-	tl.add("cloud", 0);
+	tl.add("cloud", .8);
 	tl.to(".cloud.right.a", { duration: duration * 1, x: 0 }, "cloud");
 	tl.to(".cloud.right.b", { duration: duration * 1, x: 0 }, "cloud");
 	tl.to(".cloud.right.c", { duration: duration * 1, x: 0 }, "cloud");
@@ -80,7 +80,7 @@ function standard() {
 	tl.to(".cloud.left.a", { duration: duration * 1, x: 0 }, "cloud");
 	tl.to(".cloud.left.b", { duration: duration * 1, x: 0 }, "cloud");
 
-	tl.add("start", .5);
+	tl.add("start", 1.2);
 	tl.to(".dark", { duration: duration * 1, opacity: 0 }, "start");
 	// tl.from(".light", {duration:duration*1, opacity:0}, "start")
 	tl.to(".lantern", { duration: duration * 1.2, y: 0 }, "start");
