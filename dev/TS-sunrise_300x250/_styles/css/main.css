@@ -147,6 +147,7 @@ body {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
   cursor: pointer;
+  background-color: #c6dfff;
 }
 
 #banner > a {
@@ -226,10 +227,6 @@ canvas, .text, .frame, .outline, img {
 .cloud.left {
   left: auto;
   right: 0;
-}
-
-.bg {
-  opacity: .5;
 }
 
 .lanternmask {
